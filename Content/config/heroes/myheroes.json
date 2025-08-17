@@ -1,0 +1,195 @@
+{
+	"core:lordHaart": {
+		"special" : false
+	},
+	"core:adrienne": {
+		"special" : false
+	},
+	"core:catherine": {
+		"special" : false
+	},
+	"core:dracon": {
+		"special" : false
+	},
+	"core:gelu": {
+		"special" : false
+	},
+	"core:kilgor": {
+		"special" : false
+	},
+	"core:undeadHaart": {
+		"special" : false
+	},
+	"core:mutare": {
+		"special" : false
+	},
+	"core:roland": {
+		"special" : false
+	},
+	"core:mutareDrake": {
+		"special" : false
+	},
+	"core:boragus": {
+		"special" : false
+	},
+	"core:xeron": {
+		"special" : false
+	},	
+	"courtyard:16aliceCourt": {
+		"special" : false
+	},
+	"courtyard:18AtheCourt": {
+		"special" : false
+	},	
+	"courtyard:14zana": {
+		"special" : false
+	},
+	"deathvalley:a_dvMaximus": {
+		"special" : false
+	},
+	"deathvalley:s_Taugarn": {
+		"special" : false
+	},
+	"fairy:special01Fairy": {
+		"special" : false
+	},
+	"fairy:special02Fairy": {
+		"special" : false
+	},
+	"haven:havAhero05": {
+		"onlyOnMapWithoutWater" : false
+	},	
+	"haven:havAhero05special": {
+		"special" : false
+	},
+	"haven:havAheroS01": {
+		"special" : false,
+		"texts" :
+		{
+			"specialty" :
+			{
+				"name" : "恐怖船长",
+				"description" : "可招魂恐怖船长。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "creatures/neutral/iconsSmall/dskipperS.png",
+			"specialtyLarge" : "creatures/neutral/iconsSmall/dskipperS.png",
+		},		
+		"specialty" : 
+		{			
+			"bonuses" : {	
+				"dreadSkipper": {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "mdtDreadSkipper",
+				}
+			}
+		},
+		"army" :
+		[
+			{
+				"creature" : "mdtDreadSkipper",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "mdtDreadSkipper",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "mdtDreadSkipper",
+				"max" : 4,
+				"min" : 2
+			}
+		],		
+	},
+	"haven:havAheroS02": {
+		"special" : false
+	},
+	"hota.cove:derek": {
+		"onlyOnMapWithoutWater" : false
+	},	
+	"hota.cove:bidley": {
+		"special" : false
+	},
+	"hota.cove:blackBalfour": {
+		"special" : false
+	},	
+	"hota.cove:tark": {
+		"special" : false
+	},
+	"hota.factory:09_Tavin": {
+		"special" : false
+	},
+	"hota.factory:10_Murdoch": {
+		"special" : false
+	},
+	"hota.factory:19_Frederick": {
+		"special" : false
+	},
+	"hota.factory:s01_Jangaard": {
+		"special" : false
+	},
+	"hota.factory:s02_Stina": {
+		"special" : false
+	},
+	"hota.factory:s03_Valquest": {
+		"special" : false
+	},
+	"hota.factory:s04_Winzells": {
+		"special" : false
+	},
+	"hota.factory:s05_Elderian": {
+		"special" : false
+	},
+	"hota.factory:s06_Umender": {
+		"special" : false
+	},
+	"hota.heroes:beatrice": {
+		"onlyOnMapWithoutWater" : false
+	},
+	"hota.heroes:kinkeria": {
+		"onlyOnMapWithoutWater" : false
+	},
+	"hota.heroes:ranloo": {
+		"onlyOnMapWithoutWater" : false
+	},	
+	"hota.heroes:pactalHotA": {
+		"special" : false
+	},
+	"hota.heroes:areshrakHotA": {
+		"special" : false
+	},
+	"hota.heroes:zogHotA": {
+		"special" : false
+	},
+	"hota.heroes:specialKydoimos": {
+		"special" : false
+	},
+	"hota.heroes:specialMiseria": {
+		"special" : false
+	},
+	"hota.interference:kamilaSpecial": {
+		"special" : false
+	},	
+	"new pavilion.new pavillion:bast": {
+		"special" : false
+	},
+	"new pavilion.new pavillion:varn": {
+		"special" : false
+	},
+	"new pavilion.new pavillion:zamonth": {
+		"special" : false
+	},
+	"preserve:c_faruk": {
+		"special" : false
+	},
+	"preserve:k_robert": {
+		"special" : false
+	},
+	"tidesofwar:mdtDaxaroth": {
+		"special" : false
+	},	
+}

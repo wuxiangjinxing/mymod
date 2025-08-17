@@ -1,0 +1,52 @@
+{
+    "name" : "My mod",
+    "description" : "My personal adjustments to vcmi-expansion.",
+    "version" : "1.00",
+    "modType" : "Mechanics",    
+    "contact" : "caoliaoran@gmail.com",
+	"author" : "wuxiangjinxing",
+	"depends" :
+	[
+		"tidesofwar"
+	],
+    "softDepends" :
+    [
+        "courtyard",
+		"deathvalley",
+		"fairy",
+		"haven",
+		"hota.cove",
+		"hota.heroes",
+		"hota.factory",
+		"hota.interference",
+		"new pavilion.new pavillion",
+		"preserve",
+    ],
+	"heroes" :
+	[
+		"config/heroes/myheroes"
+	],
+	"skills" : [
+		"config/skills/myskills"
+	],
+    "settings" : {
+        "heroes" : {
+			// number of heroes that player can have active on map at the same time
+			"perPlayerOnMapCap" : 255,
+			// number of heroes that player can have in total, including garrisoned
+			"perPlayerTotalCap" : 255,
+			// Chances for a hero with default army to receive corresponding stack out of his predefined starting troops
+			"startingStackChances": [ 100, 100, 100],			
+        },
+        "towns" : {
+			// Chances for a town with default buildings to receive corresponding dwelling level built in start
+			"startingDwellingChances": [100, 100]				
+        },
+        "combat" : {
+			// defines dice size of a luck roll, based on creature's luck
+			"badLuckDice" : [ 12, 6, 4],
+			// Allow area shooters with SPELL_LIKE_ATTACK bonus such as liches or magogs to target empty hexes
+			"areaShotCanTargetEmptyHex" : true,			
+        }		
+    }	
+}

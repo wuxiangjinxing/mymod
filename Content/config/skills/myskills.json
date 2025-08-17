@@ -1,0 +1,8 @@
+{
+	"core:necromancy" : {
+		"special": false
+	},
+	"deathvalley:dv_necromancy" : {
+		"special": false
+	}	
+}
